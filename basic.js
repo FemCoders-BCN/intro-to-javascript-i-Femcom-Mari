@@ -22,12 +22,11 @@ console.log('Bienvenida al bootcamp de FemCoders de Factoría F5')
 let string0 = "Una cadena primitiva";
     console.log(string0);
 
-let weight = 22e5;
+let weight = 225;
     console.log(weight);
 
-let chocolate = 1
-let dieta = 1
-    console.log(chocolate==dieta); 
+let chocolate = true
+    console.log(chocolate); 
 
 let o = null
     console.log(o);
@@ -86,13 +85,13 @@ console.log("Edad", coder.edad);
 
 
 
-console.log(typeof "Una cadena primitiva")
-console.log(typeof 22e5)
-console.log(typeof 1 != 1)
-console.log(typeof null)
-console.log(typeof undefined)
-console.log(typeof {})
-console.log(typeof ["helado", "tarta", "pastel"])
+console.log(typeof string0)
+console.log(typeof weight)
+console.log(typeof chocolate)
+console.log(typeof o)
+console.log(typeof q)
+console.log(typeof emptyobject)
+console.log(typeof frutas)
 
 
 
@@ -204,12 +203,12 @@ console.log(result2)
 //Escribe tu código aquí
 
 
-let nombre = 'Maria '
+let nombre = 'Maria'
 let apellido = 'Bongoll'
 
-let NombreCompleto = nombre  + apellido
+let nombreCompleto = `${nombre} ${apellido}`
 
-console.log(NombreCompleto)
+console.log(nombreCompleto)
 
 
 
@@ -222,7 +221,7 @@ let b = 3;
 let res =  a < 10 && b > 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
 console.log(res)
 
-let resul2 = a < 10 || b < 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
+let resul2 = a < 10 && b < 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
 console.log(resul2)
 
 let res3 = a == 5 || b == 5 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
